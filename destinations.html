@@ -1,0 +1,184 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <title>Destinations à réserver avec Avelia</title>
+    <meta charset="UTF-8">
+    <link type="image/x-icon" rel="icon" href="images/avelia logo.ico" />
+    <meta name="description" content="Explorer les meilleures destinations en Languedoc-Rousillon vers Montpellier, proposées par votre agence de réservations en ligne Avelia.">
+    <meta name="keywords" content="avelia, agent, agence, conseiller, expertise, agent pour voyages, conseiller en voyages, agence de voyage, agence de voyages, partir en vacances, partir en voyage, réserver un voyage, résidence vacances languedoc roussillon, camping languedoc roussillon, week-end dernière minute languedoc roussillon, recherche location vacances">
+    <link type="text/css" href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/bootstrap/bootstrap-grid.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script rel="script" type="text/javascript" src="js/jquery.min.js"></script>
+    <script rel="script" type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="page">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Avelia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="voyage-virtuel-audio.html">Voyage virtuel : Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="voyage-virtuel-video.html">Voyage virtuel : Vidéo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav float-right">
+                    <form class="form-inline my-2 my-lg-0" id="gestionSession">
+                        <button class="btn btn-dark my-2 my-sm-0" type="button" data-toggle="modal" data-target="#connexionModal">Connexion</button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Destinations</h1>
+        <article>
+            <div class="row" id="destinations-list">
+                <div class="col-sm-6 col-md-4 mb-3 d-none" id="editeurCreationDestination">
+                    <div class="card">
+                        <img src="https://i2.wp.com/www.123freevectors.com/wp-content/original/131249-dark-grey-low-poly-abstract-background-design-vector.jpg?w=800&amp;q=95" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title"><input name="destination_nom" type="text" placeholder="Nom destination" class="form-control"></h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_prix" type="number" placeholder="Prix en €" class="form-control"></h6>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_image" type="text" placeholder="Lien image" class="form-control"></h6>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_offre" type="text" placeholder="Description offre" class="form-control"></h6>
+                            <a id="ajouterDestination" href="#" class="btn btn-sm btn-outline-info">Ajouter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-3 d-none" id="editeurModificationDestination">
+                    <div class="card">
+                        <img src="https://i2.wp.com/www.123freevectors.com/wp-content/original/131249-dark-grey-low-poly-abstract-background-design-vector.jpg?w=800&amp;q=95" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h5 class="card-title"><input name="destination_nom" type="text" placeholder="Nom destination" class="form-control"></h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_prix" type="number" placeholder="Prix en €" class="form-control"></h6>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_image" type="text" placeholder="Lien image" class="form-control"></h6>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_offre" type="text" placeholder="Description offre" class="form-control"></h6>
+                            <a id="modifierDestination" href="#" class="btn btn-sm btn-outline-info mb-1" onclick="validerModifierDestination()">Modifier</a>
+                            <a id="annulerModifierDestination" href="#" class="btn btn-sm btn-outline-danger mb-1" onclick="annulerModifierDestination()">Annuler</a>
+                            <input name="destination_id" type="hidden">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-3" id="destination-0">
+                    <div class="card">
+                        <img src="images/palavas-les-flots.jpg" class="card-img-top" alt="Palavas-les-Flots">
+                        <div class="card-body">
+                            <h5 class="card-title">Palavas-les-Flots</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">430 €</h6>
+                            <p class="card-text">La station balnéaire de Palavas-les-Flots borde la mer Méditerranée. Elle est entourée de plusieurs lacs et traversée par le Lez. Venez passer deux semaines dans ce petit coin de paradis.</p>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1" href="destinations/palavas-les-flots.html" name="decouvrir">Découvrir</a>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1 d-none" href="#" name="modifier" onclick="modifierDestination(0)">Modifier</a>
+                            <a class="btn btn-sm btn-outline-danger mb-1 d-none" href="#" name="supprimer" onclick="supprimerDestination(0)">Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-3" id="destination-1">
+                    <div class="card">
+                        <img alt="La Grande-Motte" class="card-img-top" src="images/la-grande-motte.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">La Grande-Motte</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">560 €</h6>
+                            <p class="card-text">La Grande-Motte est une commune française située dans le département de l'Hérault en région Occitanie. Venez passer des vacances ensoleillées dans ce paysage atypique constitué de pyramides.</p>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1" href="destinations/la-grande-motte.html" name="decouvrir">Découvrir</a>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1 d-none" href="#" name="modifier" onclick="modifierDestination(1)">Modifier</a>
+                            <a class="btn btn-sm btn-outline-danger mb-1 d-none" href="#" name="supprimer" onclick="supprimerDestination(1)">Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-3" id="destination-2">
+                    <div class="card">
+                        <img alt="Sète" class="card-img-top" src="images/sete.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Sète</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">530 €</h6>
+                            <p class="card-text">Sète est une importante ville portuaire du sud-est de la France, située en Occitanie. Elle est bordée par l'étang de Thau, un lagon d'eau salée qui abrite diverses espèces animales. Parfait, pour se détendre, ce havre de paix est parfait pour vos vacances.</p>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1" href="destinations/sete.html" name="decouvrir">Découvrir</a>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1 d-none" href="#" name="modifier" onclick="modifierDestination(2)">Modifier</a>
+                            <a class="btn btn-sm btn-outline-danger mb-1 d-none" href="#" name="supprimer" onclick="supprimerDestination(2)">Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-3" id="destination-3">
+                    <div class="card">
+                        <img alt="Agde" class="card-img-top" src="images/agde.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Agde</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">670 €</h6>
+                            <p class="card-text">La ville d'Agde, surnommée parfois « la perle noire de la Méditerranée » à cause de ses monuments construits en pierre basaltique, a une longue histoire. Connue pour son cap, cette ville saura aussi vous montrer des beaux paysages.</p>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1" href="destinations/agde.html" name="decouvrir">Découvrir</a>
+                            <a class="btn btn-sm btn-outline-info mr-1 mb-1 d-none" href="#" name="modifier" onclick="modifierDestination(3)">Modifier</a>
+                            <a class="btn btn-sm btn-outline-danger mb-1 d-none" href="#" name="supprimer" onclick="supprimerDestination(3)">Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="social-medias">
+            <span>
+                <a href="#" class="fa fa-twitter social-twitter"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-linkedin social-linkedin"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-facebook social-facebook"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-instagram social-instagram"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-pinterest social-pinterest"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-youtube social-youtube"></a>
+            </span>
+        </div>
+    </footer>
+</div>
+
+<script rel="script" type="text/javascript" src="js/script.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156094377-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156094377-1');
+</script>
+
+
+</body>
+
+</html>

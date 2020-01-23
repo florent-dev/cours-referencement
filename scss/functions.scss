@@ -1,0 +1,72 @@
+// Question 1 & 2
+@mixin generer_classes_tailles() {
+  $elements: 4;
+  @for $i from 1 through $elements {
+    .taille-#{$i} {
+      width: (100% / $elements) * $i;
+    }
+  }
+}
+@include generer_classes_tailles();
+
+// Question 3 & 4
+@mixin generer_classes_tailles_nom($classe, $liste) {
+  $i: 0;
+  @each $element in $liste {
+    .#{$classe}-#{nth($liste, $i+1)} {
+      $i: $i+1;
+      width: (100% / length($liste)) * $i;
+    }
+  }
+}
+
+// Question 6
+@function firstValueOfList($list) {
+  @return nth($list, 1);
+}
+
+// Question 7
+@function lastValueOfList($list) {
+  @return nth($list, length($list));
+}
+
+// Question 9
+@mixin ajouterTexte($prefix, $tableaux, $type: 'texte', $position: 'before') {
+  @each $tableau in $tableaux {
+    @if $type == "texte" {
+      .#{$prefix}-#{lastValueOfList($tableau)}::#{$position} {
+        display: block;
+        content: "#{firstValueOfList($tableau)}";
+      }
+    }@else if $type == "couleur" {
+      .#{$prefix}-#{firstValueOfList($tableau)} {
+        background: #{lastValueOfList($tableau)};
+      }
+
+      .fa-#{firstValueOfList($tableau)} {
+        color: #{lighten(lastValueOfList($tableau), 50%)};
+      }
+    }
+  }
+}
+
+// Question 8
+$map: ("Paris", "paris"),
+        ("Rome", "rome"),
+        ("Venise", "venise"),
+        ("Brésil", "bresil"),
+        ("Les îles Caraïbes", "iles-caraibes");
+
+// Question 11
+$social: ("facebook", #3a83af),
+        ("twitter", #2077af),
+        ("linkedin", #5eafa0),
+        ("instagram", #af1f74),
+        ("pinterest", #7caf2c),
+        ("youtube", #af1d31);
+
+$tableauGrandeur: "petite", "standard", "moyenne", "grande";
+
+@include generer_classes_tailles_nom("bouton", $tableauGrandeur);
+@include ajouterTexte("ville", $map);
+@include ajouterTexte("social", $social, "couleur");

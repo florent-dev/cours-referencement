@@ -1,0 +1,238 @@
+@charset "UTF-8";
+.taille-1 {
+  width: 25%; }
+
+.taille-2 {
+  width: 50%; }
+
+.taille-3 {
+  width: 75%; }
+
+.taille-4 {
+  width: 100%; }
+
+.bouton-petite {
+  width: 25%; }
+
+.bouton-standard {
+  width: 50%; }
+
+.bouton-moyenne {
+  width: 75%; }
+
+.bouton-grande {
+  width: 100%; }
+
+.ville-paris::before {
+  display: block;
+  content: "Paris"; }
+
+.ville-rome::before {
+  display: block;
+  content: "Rome"; }
+
+.ville-venise::before {
+  display: block;
+  content: "Venise"; }
+
+.ville-bresil::before {
+  display: block;
+  content: "Br├®sil"; }
+
+.ville-iles-caraibes::before {
+  display: block;
+  content: "Les ├«les Cara├»bes"; }
+
+.social-facebook {
+  background: #3a83af; }
+
+.fa-facebook {
+  color: #eef5fa; }
+
+.social-twitter {
+  background: #2077af; }
+
+.fa-twitter {
+  color: #d6ebf8; }
+
+.social-linkedin {
+  background: #5eafa0; }
+
+.fa-linkedin {
+  color: white; }
+
+.social-instagram {
+  background: #af1f74; }
+
+.fa-instagram {
+  color: #f8d5ea; }
+
+.social-pinterest {
+  background: #7caf2c; }
+
+.fa-pinterest {
+  color: #eff8e2; }
+
+.social-youtube {
+  background: #af1d31; }
+
+.fa-youtube {
+  color: #f8d3d8; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #bbbbbb;
+  background: #251e1a url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Calibri, serif;
+  overflow-x: hidden; }
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #787b7bd9; }
+  header nav {
+    background-color: #0dffff8c;
+    box-shadow: 0 0 22px #000000; }
+
+.dropdown-item:hover {
+  font-weight: bold; }
+  .dropdown-item:hover:before {
+    content: "» "; }
+  .dropdown-item:hover:after {
+    content: " «"; }
+.dropdown-item:active {
+  color: #151515;
+  background-color: rgba(156, 159, 159, 0.85); }
+
+main {
+  margin: 100px 5% 5% 5%;
+  padding: 5%;
+  border-radius: 4px;
+  background-color: #37bdbcde;
+  box-shadow: 0 0 22px #aab1b1; }
+  main p {
+    padding: 5px 10px;
+    margin: 4px; }
+  main ul {
+    color: #ffffff; }
+  main ol {
+    color: #2a3333; }
+  main li {
+    margin-bottom: 10px;
+    padding-left: 15px; }
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  footer div.social-medias {
+    float: right;
+    margin-right: 5px; }
+    footer div.social-medias span a {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      padding: 10px 15px;
+      text-decoration: none; }
+
+figure {
+  margin-bottom: 30px; }
+  figure figcaption {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #151515; }
+    figure figcaption:before {
+      content: "» "; }
+  figure iframe, figure video {
+    width: 400px;
+    height: 225px;
+    box-shadow: 0 0 10px #2a3333;
+    border: none; }
+
+h1 {
+  color: #a4229a; }
+
+h2 {
+  text-transform: uppercase;
+  margin: 3px 0; }
+
+h3 {
+  margin-top: 45px; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+.fa {
+  font-size: 30px !important; }
+
+table {
+  width: 100%;
+  border: 10px solid #787b7bd9; }
+  table caption {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold; }
+  table th {
+    background-color: rgba(156, 159, 159, 0.85); }
+  table tr:nth-child(odd) td {
+    background-color: rgba(156, 159, 159, 0.85); }
+  table tr:hover td {
+    background-color: #151515; }
+  table th, table td {
+    padding: 5px;
+    border: 5px solid #787b7bd9;
+    text-align: center; }
+  table img {
+    width: 200px; }
+
+form label {
+  display: block; }
+form input[type=submit] {
+  padding: 5px 20px; }
+
+.notification {
+  padding: 5px;
+  margin: 5px;
+  background-color: #787b7bd9; }
+
+.navbar-toggler {
+  width: 100%; }
+
+.nav-link {
+  color: #000000 !important; }
+
+figure {
+  max-width: 600px;
+  max-height: 350px; }
+
+/** Media queries **/
+@media screen and (max-width: 500px) {
+  footer {
+    bottom: -1px !important; }
+    footer div.social-medias span a {
+      padding: 2px 3px !important; }
+
+  button:not(.btn-deconnexion), a.btn:not(.btn-deconnexion) {
+    width: 100% !important;
+    float: left; } }
+@media screen and (max-width: 250px) {
+  footer {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

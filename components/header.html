@@ -1,0 +1,42 @@
+<nav>
+    <div class="menu-item">
+        <a href="index.html">Avelia</a>
+    </div>
+    <div class="menu-item">
+        <a>Plus...</a>
+        <ul>
+            <li>Connexion</li>
+            <li>Recherche</li>
+            <li>Réservations</li>
+            <li>Promotions</li>
+        </ul>
+    </div>
+    <div class="menu-item">
+        <a href="services.html">Services</a>
+    </div>
+    <div class="menu-item">
+        <a href="destinations.html">Destinations</a>
+    </div>
+    <div class="menu-item">
+        <a>Voyage virtuel</a>
+        <ul>
+            <a href="voyage-virtuel-audio.html"><li>Audio</li></a>
+            <a href="voyage-virtuel-video.html"><li>Vidéo</li></a>
+        </ul>
+    </div>
+    <div class="menu-item">
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<script>
+    var navProto = Object.create(HTMLElement.prototype);
+    var navDoc = document.currentScript.ownerDocument;
+    navProto.createdCallback = function() {
+        var shadow = this.createShadowRoot();
+        var nav = navDoc.querySelector('nav');
+        var clone = document.importNode(nav, true);
+        shadow.appendChild(clone);
+    };
+    document.registerElement('my-header', { prototype: navProto });
+</script>

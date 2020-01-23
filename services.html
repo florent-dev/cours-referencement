@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <title>Services pour voyager avec votre prestataire Avelia</title>
+    <meta charset="UTF-8">
+    <link type="image/x-icon" rel="icon" href="images/avelia logo.ico" />
+    <meta name="description" content="Services proposés par notre agence Avelia pour des réservations en ligne pour la région Languedoc-Rousillon, vers Montpellier.">
+    <meta name="keywords" content="avelia, agent, agence, conseiller, expertise, agent pour voyages, conseiller en voyages, agence de voyage, agence de voyages, partir en vacances, partir en voyage, réserver un voyage, résidence vacances languedoc roussillon, camping languedoc roussillon, week-end dernière minute languedoc roussillon, recherche location vacances">
+    <link type="text/css" href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/bootstrap/bootstrap-grid.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script rel="script" type="text/javascript" src="js/jquery.min.js"></script>
+    <script rel="script" type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="js/leaflet/leaflet.css" />
+    <script src="js/leaflet/leaflet.js"></script>
+    <script src="js/leaflet/bouncemarker.js"></script>
+</head>
+
+<body>
+
+<div class="page">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Avelia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="voyage-virtuel-audio.html">Voyage virtuel : Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="voyage-virtuel-video.html">Voyage virtuel : Vidéo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav float-right">
+                    <form class="form-inline my-2 my-lg-0" id="gestionSession">
+                        <button class="btn btn-dark my-2 my-sm-0" type="button" data-toggle="modal" data-target="#connexionModal">Connexion</button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nos services pour voyager dans la région Languedoc-Rousillon</h1>
+
+        <article>
+            <h2>Information</h2>
+            <p><img src="https://www.shareicon.net/data/512x512/2016/07/06/791908_home_512x512.png" alt="Agence principale" width="50px"/> Agence principale (Grenoble)</p>
+            <p><img src="http://images.clipartpanda.com/map-icon-vector-9T4x6GAac.png" width="50px" alt="Agence secondaire" /> Agences secondaires (Lyon, Montélimar, Valence)</p>
+
+            <hr>
+
+            <h2>Localisation</h2>
+            <p><div id="map" style="height: 400px; width: 800px;"></div></p>
+
+            <hr>
+
+            <h2>Assistance</h2>
+            <p>Contacter l'agence de Grenoble : <b>+33 4 80 75 85 65</b></p>
+            <p>Contacter téléphone de l'agence de Lyon : <b>+33 4 80 75 85 65</b></p>
+            <p>Contacter téléphone de l'agence de Montélimar : <b>+33 4 80 75 85 65</b></p>
+            <p>Contacter téléphone de l'agence de Valence : <b>+33 4 80 75 85 65</b></p>
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="social-medias">
+            <span>
+                <a href="#" class="fa fa-twitter social-twitter"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-linkedin social-linkedin"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-facebook social-facebook"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-instagram social-instagram"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-pinterest social-pinterest"></a>
+            </span>
+            <span>
+                <a href="#" class="fa fa-youtube social-youtube"></a>
+            </span>
+        </div>
+    </footer>
+</div>
+
+<script rel="script" type="text/javascript" src="js/script.js"></script>
+<script rel="script" type="text/javascript" src="js/map.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156094377-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156094377-1');
+</script>
+
+
+</body>
+
+</html>
