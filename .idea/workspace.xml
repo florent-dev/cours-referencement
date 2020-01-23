@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579d4fc3-2d18-411e-903d-4e1522e9ec4e" name="Default Changelist" comment="" />
+    <list default="true" id="579d4fc3-2d18-411e-903d-4e1522e9ec4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/la-grande-motte.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/palavas-les-flots.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/sete.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/mp3_141.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/agde.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations/agde.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/agde.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations/la-grande-motte.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/la-grande-motte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations/palavas-les-flots.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/palavas-les-flots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations/sete.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/sete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voyage-virtuel-audio.html" beforeDir="false" afterPath="$PROJECT_DIR$/voyage-virtuel-audio.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +34,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WL9iklR8w3OJJxZHmciJSUc94w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,13 +48,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/audio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\Cours\Referencement\audio" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\laragon\www\Cours\Referencement\js" />
     </key>
@@ -69,7 +92,7 @@
       <workItem from="1579696987365" duration="1223000" />
       <workItem from="1579719931890" duration="2191000" />
       <workItem from="1579783531953" duration="1748000" />
-      <workItem from="1579804424878" duration="1069000" />
+      <workItem from="1579804424878" duration="3726000" />
     </task>
     <servers />
   </component>

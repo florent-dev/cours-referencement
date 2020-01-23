@@ -1,15 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>http://inkeox.com/avelia/</loc>
-  <lastmod>2020-01-13T14:23:07+00:00</lastmod>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://inkeox.com/avelia/</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/index.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/destinations.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/services.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/voyage-virtuel-audio.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/voyage-virtuel-video.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/contact.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/destinations/agde.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/destinations/la-grande-motte.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/destinations/palavas-les-flots.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://inkeox.com/avelia/destinations/sete.html</loc>
+    <lastmod>2020-01-13T14:23:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
