@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579d4fc3-2d18-411e-903d-4e1522e9ec4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/la-grande-motte.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/palavas-les-flots.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/sete.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio/mp3_141.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/agde.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/destinations/agde.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/agde.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/destinations/la-grande-motte.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/la-grande-motte.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/destinations/palavas-les-flots.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/palavas-les-flots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/destinations/sete.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations/sete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avelia logo.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/avelia_logo.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/visit_spain.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/voyage-virtuel-audio.html" beforeDir="false" afterPath="$PROJECT_DIR$/voyage-virtuel-audio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voyage-virtuel-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/voyage-virtuel-video.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <workItem from="1579696987365" duration="1223000" />
       <workItem from="1579719931890" duration="2191000" />
       <workItem from="1579783531953" duration="1748000" />
-      <workItem from="1579804424878" duration="3726000" />
+      <workItem from="1579804424878" duration="5902000" />
     </task>
     <servers />
   </component>
@@ -132,10 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579804424327" />
-    <state x="748" y="233" width="737" height="606" key="find.popup" timestamp="1579721487921">
+    <state x="748" y="233" width="737" height="606" key="find.popup" timestamp="1579820948727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="748" y="233" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579721487921" />
+    <state x="748" y="233" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579820948727" />
     <state x="552" y="292" key="scopes" timestamp="1579636753722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
